@@ -1,1 +1,15 @@
 /* Inserta tu codigo aqui */
+.cuad_verde{
+	background: green;
+	position: relative;
+
+}
+.izq-cuad{
+	float: left;
+	width: 30%;
+
+}
+.dere-cuad{
+	float: right;
+}
+img{width: 100%;}

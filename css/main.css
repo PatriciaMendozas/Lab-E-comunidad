@@ -1,15 +1,33 @@
 /* Inserta tu codigo aqui */
-.cuad_verde{
-	background: green;
-	position: relative;
-
+.cuad_plomo{
+	background: grey;
 }
-.izq-cuad{
+p{
+	float: right;
+	color: red;
+}
+
+
+/*.cont_proyectos{
+	display: block;
+}
+.bx-wrapper{
+	width: 70%;
+}
+.photo_proyectos{
 	float: left;
 	width: 30%;
+	margin-left: 14%
 
 }
 .dere-cuad{
 	float: right;
+	width: 20%;
+	margin: 3% 12% 3% 0%;
+	text-align: center;
 }
-img{width: 100%;}
+img
+{width: 100%;
+}*/
+
+

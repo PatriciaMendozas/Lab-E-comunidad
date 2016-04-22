@@ -1,5 +1,7 @@
-/**{outline: 1px solid rgba(255,0,0,0.2);
-}*/
+*{outline: 1px solid rgba(255,0,0,0.5);
+}
+
+/*shirley*/
 a{
 	text-decoration: none;
 }
@@ -74,9 +76,7 @@ p{
 	float: right;
 	color: red;
 }
-img{
-	width: 100%;
-}
+
 
 .icono_contac{
 	display: inline-block;
@@ -121,51 +121,41 @@ img{
 	box-shadow: rgb(150, 172, 150)5px 5px 5px 10px;
 }
 /*Marisol*/
+
+
 .cuadro1{
 	margin-bottom: 40px;
-	margin-top: 40px;
+	margin-top: 90px;
 }
-#abc{
-	margin-left: 150px;
 
-}
-#bcd{
-	margin-left: 150px;
-
-}
-p{
-	text-align: center;
-}
-h2{
-	text-align: center;
-}
 h3{
 	text-align: center;
 	margin-bottom: 30px;
 }
 .conferencia{
-	width: 470px;
+	width: 620px;
 	height: 450px;
 }
-.pq {
+.verde {
 	position: absolute;
-	
-	margin-left: 200px;
-	margin-top: -320px;
+	margin-left: 250px;
+	margin-top: -300px;
 }
-.logia{
+
+.texto{
 	position: absolute;
-	margin-left: 180px;
-	margin-top: -250px;
-	color: white;
-}
-.logia2{
-	position: absolute;
-	margin-left: 50px;
+	margin-left: 100px;
 	margin-top: -200px;
 	color: white;
 	height: 90px;
 	width: 350px;
+
+}
+.titulo{
+	color: white;
+	position: absolute;
+	margin-left: 238px;
+	margin-top: -230px;
 
 }
 .cuadro3{
@@ -175,9 +165,26 @@ h3{
 .cero{
 	margin-left: 50px;
 }
-.separar{
-	margin-bottom: 50px; 
-	margin-top: 50px;
+
+.centrado{
+	text-align: center;
 }
+.redondo{
+	width: 27%;
+	margin: 4% 0% 4% 3%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+.servicios{
 
+	margin-top: 5%;
+}
+.circulo{
+	width: 30%;
+	margin: 4% 5% 4% 35%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
 
+}

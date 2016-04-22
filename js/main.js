@@ -10,3 +10,11 @@ $(document).ready(function(){
     slideMargin: 10/*tamaño del margen entre el borde de la diapositiva y la imagen en miniatura.*/
   });
 });
+$(document).ready(function(){
+  $('.slider2').bxSlider({
+    slideWidth: 300,
+    minSlides: 2,
+    maxSlides: 2,
+    slideMargin: 10
+  });
+});

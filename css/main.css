@@ -6,6 +6,15 @@ p{
 	float: right;
 	color: red;
 }
+img{
+	width: 100%;
+}
+
+.icono_contac{
+	display: inline-block;
+	width: 12%;
+	margin: 4% 1%;
+}
 .contc_plomo{
 	background: grey;
 	text-align: center;
@@ -18,11 +27,27 @@ p{
 	width: 10%;
 	margin-bottom: 1%;
 }
+.equipo{
+	margin: 2% 4%;
+	text-align: center;
+}
+.list_equipo{
 
+	max-width: 22%;
+	margin: 1% 3%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: top;
+}
+.list_equipo > img{
+	border-radius: 100%;
+}
 
 .cont > img:hover{
 	border-radius: 100%;
-	box-shadow: rgb(150, 172, 150)5px 5px 5px 10px;
+	box-shadow: rgb(150, 172, 150)5px 5px 5% 10px;
+
 }
 
 #email > img:hover{

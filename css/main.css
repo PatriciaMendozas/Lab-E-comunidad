@@ -6,8 +6,28 @@ p{
 	float: right;
 	color: red;
 }
+.contc_plomo{
+	background: grey;
+	text-align: center;
+}
+.cont > img{
+		width: 10%
 
-*{outline: 1px solid rgba(255,0,0,0.5);}*
+}
+img{
+	width: 100%;
+}
+
+
+.cont > img:hover{
+	border-radius: 100%;
+	box-shadow: rgb(150, 172, 150)5px 5px 5px 10px;
+}
+#email{
+	margin-bottom: 1%;
+	
+}
+*{outline: 1px solid rgba(255,0,0,0.3);}*
 .cuadro1{
 	margin-bottom: 40px;
 	margin-top: 40px;

@@ -1,6 +1,6 @@
-*{outline: 1px solid rgba(255,0,0,0.5);
+/**{outline: 1px solid rgba(255,0,0,0.5);
 }
-
+*/
 /*shirley*/
 a{
 	text-decoration: none;
@@ -66,25 +66,23 @@ img{max-width: 100%;
 /*fin header */
 /*Patty */
 .cuad_verde{
-	background: green;
+	background: #608E31;
 	position: relative;
 }
-.cuad_plomo{
-	background: gray;
+/*.cuad_plomo{
+	background: #279B46;
+}*/
+.margen-blog{
+	margin: 2% 0%;
+	text-align: center;
 }
-p{
-	float: right;
-	color: red;
-}
-
-
 .icono_contac{
 	display: inline-block;
 	width: 12%;
 	margin: 4% 1%;
 }
 .contc_plomo{
-	background: gray;
+	background: #595C56;
 	text-align: center;
 }
 .cont > img{
@@ -122,6 +120,10 @@ p{
 }
 /*Marisol*/
 
+.misi_visi{
+	width: 34%;
+	margin: 0% 8%;
+}
 
 .cuadro1{
 	margin-bottom: 40px;
@@ -132,32 +134,22 @@ h3{
 	text-align: center;
 	margin-bottom: 30px;
 }
-.conferencia{
-	width: 620px;
-	height: 450px;
+.fondo_meto{
+	padding: 0% 0%;
 }
-.verde {
-	position: absolute;
-	margin-left: 250px;
-	margin-top: -300px;
+.cuadr_metod{
+	
+	background: green;
 }
+.text_meto{
+	margin: 7% 7%;
 
-.texto{
-	position: absolute;
-	margin-left: 100px;
-	margin-top: -200px;
 	color: white;
-	height: 90px;
-	width: 350px;
-
 }
-.titulo{
-	color: white;
-	position: absolute;
-	margin-left: 238px;
-	margin-top: -230px;
-
+.icono_meto{
+	margin-top: 27%;
 }
+
 .cuadro3{
 	margin-top: 40px;
 	margin-bottom: 40px;
@@ -166,7 +158,7 @@ h3{
 	margin-left: 50px;
 }
 
-.centrado{
+.text-center{
 	text-align: center;
 }
 .redondo{
@@ -187,4 +179,7 @@ h3{
 	vertical-align: top;
 	text-align: center;
 
+}
+.pie_pag{
+	background: #D7D4D4
 }

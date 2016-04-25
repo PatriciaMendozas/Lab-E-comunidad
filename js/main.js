@@ -1,20 +1,33 @@
 /*setInterval(function(){
 	alert("hola mundo");
 },1000);*/
+
+$(document).ready(function(){
+  $('.slider2').bxSlider({
+    slideWidth: 500,
+    minSlides: 2,
+    maxSlides: 2,
+    slideMargin: 10
+  });
+});
 $(document).ready(function(){
   $('.slider5').bxSlider({
-    slideWidth: 300, /*anchura de cada diapositiva*/
+    slideWidth: 380, /*anchura de cada diapositiva*/
     minSlides: 3,/*El número mínimo de diapositivas para mostrar*/
     maxSlides: 3,/*El número maximo de diapositivas para mostrar*/
     moveSlides: 3,/*El número de diapositivas se mueva en la transición.*/
     slideMargin: 10/*tamaño del margen entre el borde de la diapositiva y la imagen en miniatura.*/
   });
 });
-$(document).ready(function(){
-  $('.slider2').bxSlider({
-    slideWidth: 300,
-    minSlides: 2,
-    maxSlides: 2,
-    slideMargin: 10
-  });
-});
+
+var video = document.getElementById("video") ;
+
+function getVolume() { 
+    alert(vid.volume);
+} 
+function setFullVolume(){
+video.volume=1.0 ;
+}
+function setHalfVolume(){
+video.volume= 0.2 ;
+}

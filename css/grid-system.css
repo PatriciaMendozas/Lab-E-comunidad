@@ -14,7 +14,10 @@
 }
 
 /* Grid system */
-
+.tierra{
+	margin: 2% 5%;
+	text-align: center;
+}
 .container {
 	width: 1366px;
 	padding-left: 14px; 

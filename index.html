@@ -8,8 +8,11 @@
 	<link href="js/jquery.bxslider.css" rel="stylesheet" />
 	<link rel="stylesheet" href="css/grid-system.css">
 	<link rel="stylesheet" href="css/utilities.css">
+
 	<script type="text/javascript" src="js/main.js"></script>
+	<link rel="stylesheet" href="img/iconos/icomoon/style.css">
 	<link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
 <header>
@@ -27,18 +30,16 @@
 		</div>
 	</div>
 	<div>
-	<div class="video">
-		<video id="video" autoplay preload loop ="" controls poster="img/semilla.jpg" class="fullscreen">
-			<source src="video/video.mp4" type="video.mp4"/>
-			<source src="video/video.ogv" type="video/ogg">
-			<source src="videos/video.webm" type="video/webm">
-		</video>
-	</div>
-	<div id="control">
-			<button onclick="getVolume()" type="button">What is the volume?</button>
-			<button onclick="setFullVolume()" type="button">Subir</button>
-			<button onclick="setHalfVolume()" type="button">Bajar</button>
-	</div>
+		<div class="video">
+			<video id="video" autoplay preload muted loop  poster="img/semilla.jpg" class="fullscreen">
+				<source src="video/video.mp4" type="video.mp4"/>
+				<source src="video/video.ogv" type="video/ogg">
+				<source src="videos/video.webm" type="video/webm">
+			</video>
+		<button id="boton" onclick="toggleVolumen()"><i class="icon-volume-medium"></i></button>	
+		</div>
+
+	
 	</div>
 </header>
 <section>
@@ -185,12 +186,12 @@
 				</div>
 		</div>
 		<div class="row contc_plomo">
-		<h2 class="text-center">SIGUENOS</h2>
-			<a class="cont" href="#"><img src="img/twitter.png"></a>
-			<a class="cont" href="#"><img src="img/in.png"></a>
-			<a class="cont" href="#"><img src="img/facebook.png"></a>
-		
-			<a  id="email" href="#"><img src="img/email.png"></a>
+			<h2 class="text-center">SIGUENOS</h2>
+				<a class="cont" href="#"><img src="img/twitter.png"></a>
+				<a class="cont" href="#"><img src="img/in.png"></a>
+				<a class="cont" href="#"><img src="img/facebook.png"></a>
+			
+				<a  id="email" href="#"><img src="img/email.png"></a>
 		</div>
 
 	</section>

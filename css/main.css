@@ -2,6 +2,9 @@
 }
 */
 /*shirley*/
+.row{
+	margin: 0;
+}
 a{
 	text-decoration: none;
 }
@@ -85,13 +88,14 @@ img{max-width: 100%;
 	background: #595C56;
 	text-align: center;
 }
-.cont > img{
-		width: 10%;
+
+#boton{
+	position: absolute;
+	width: 5%;
+	bottom: 0%;
+	right: 0%;
 }
-#email > img{
-	width: 10%;
-	margin-bottom: 1%;
-}
+
 .equipo{
 	margin: 2% 4%;
 	text-align: center;
@@ -108,14 +112,19 @@ img{max-width: 100%;
 .list_equipo > img{
 	border-radius: 100%;
 }
-
+.cont > img{
+		width: 10%;
+	}
 .cont > img:hover{
 	border-radius: 100%;
 	box-shadow: rgb(150, 172, 150)5px 5px 5% 10px;
-
 }
-
+#email > img{
+	width: 10%;
+	margin-bottom: 1%;
+}
 #email > img:hover{
+
 	box-shadow: rgb(150, 172, 150)5px 5px 5px 10px;
 }
 /*Marisol*/

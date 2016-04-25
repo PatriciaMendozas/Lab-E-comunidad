@@ -20,14 +20,19 @@ $(document).ready(function(){
   });
 });
 
-var video = document.getElementById("video") ;
 
-function getVolume() { 
-    alert(vid.volume);
-} 
-function setFullVolume(){
-video.volume=1.0 ;
-}
-function setHalfVolume(){
-video.volume= 0.2 ;
-}
+function toggleVolumen()
+			{
+				var video = document.getElementById('video');
+				var boton = document.getElementById('boton');
+				console.log(video.volume);
+				if(video.muted == false)
+				{
+					video.muted = true;
+					boton.innerHTML = '<i class="icon-volume-medium"></i>';
+				}else{
+					video.muted = false;
+					boton.innerHTML = '<i class="icon-volume-mute2"></i>';
+
+				}
+			}

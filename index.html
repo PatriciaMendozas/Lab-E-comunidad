@@ -12,11 +12,9 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<header>
-	<div class=" header container ">
+	<div class=" header">
 		<img src="img/ecomunidad-logo.png">
-		<div class="menu">
-			<ul>
+			<ul class="menu">
 				<li><a href="#Nosotros">Nosotros</a></li>
 				<li><a href="#Servicios">Servicios</a></li>
 				<li><a href="#Proyectos">Proyectos</a></li>
@@ -24,11 +22,10 @@
 				<li><a href="#Blogs">Blogs</a></li>
 				<li><a href="#Siguenos">Síguenos</a></li>
 			</ul>
-		</div>
 	</div>
-	<div>
+	<div class="margin"></div>
 	<div class="video">
-		<video id="video" autoplay preload loop ="" controls poster="img/semilla.jpg" class="fullscreen">
+		<video id="video" autoplay preload muted loop ="" controls poster="img/semilla.jpg" class="fullscreen">
 			<source src="video/video.mp4" type="video.mp4"/>
 			<source src="video/video.ogv" type="video/ogg">
 			<source src="videos/video.webm" type="video/webm">
@@ -39,15 +36,9 @@
 			<button onclick="setFullVolume()" type="button">Subir</button>
 			<button onclick="setHalfVolume()" type="button">Bajar</button>
 	</div>
-	</div>
-</header>
-<section>
-
-	<!-- marisol desde despues de menu, hasta antes del cuadrado verde-->
-	<div class="row">
-	
-		<p class="tierra">La Tierra era pequeña, azul claro y estaba conmovedoramente sola, nuestro hogar, que debe ser defendido como reliquia sagrada. La Tierra era absolutamente redonda…creo que nunca supe lo que realmente significaba que el mundo fuera redondo hasta que vi la Tierra desde el espacio...</p>
-	</div>
+<section id="Nosotros" class="contc_plomo">
+	<p>Si desaparecieran todos los insectos de la tierra, en menos de 50 años desaparecería toda la vida. Si todos los seres humanos desaparecieran de la tierra, en menos de 50 años todas las formas de vida florecerían.</br>El amor es la fuerza más grande del universo, y si en el planeta hay un caos medioambiental es también porque falta amor por él.</br>Primero fue necesario civilizar al hombre en su relación con el hombre. Ahora es necesario civilizar al hombre en su relación con la naturaleza y los animales.</p>
+</section>
 	<div class="row cuadro1" >
 		<div class="col-6  misi_visi">
 			<img class=" circulo"src="img/iconos/mision/mision.png">
@@ -66,18 +57,14 @@
 				<img src="img/metodo.jpg">
 			</div>
 			<div class="col-6 cuadr_metod ">
-				
-				<div class="text-center">
 					<img class= "icono_meto"src="img/iconos/metodologia-icon.png">
-					<h2 class="text_meto">Metodología</h2>
+					<h2 class="text_meto text-center">Metodología</h2>
 					
-					<p class="text_meto">Camino o procedimientos racionales utilizados para alcanzar el objetivo o la gama de objetivos que rige una investigación científica, una exposición doctrinal o tareas que requieran habilidades, conocimientos o cuidados específicos.</p>
-					
-				</div>
+					<p class="text_meto text-center">Camino o procedimientos racionales utilizados para alcanzar el objetivo o la gama de objetivos que rige una investigación científica, una exposición doctrinal o tareas que requieran habilidades, conocimientos o cuidados específicos.</p>
 			</div>	
 		</div>
 	</div>
-	
+	<section id="Servicios">
 	<div class="row cuadro3">
 		<h2 class="text-center">SERVICIOS</h2>
 				<p class="text-center">Nuestros servicios ambientales en:Proyectos de Mitigación al Cambio Climático,Gestión de Proyectos,Consultoría Ambiental Estratégica.
@@ -96,9 +83,8 @@
 					<li class="redondo"><a href="#"><img src="img/iconos/servicios-icon/agricultura-icon.png"></a><h3>Agrícultura</h3><p clas="text-center">Conjunto de técnicas y conocimientos para cultivar la tierra</p></li>
 				</ul>
 	</div>
-	<!--patty-->
-	<div class="row cuad_verde">
-		<!--proyectos-->
+	</section>
+	<section id="Proyectos" class="cuad_verde row">
 		<h2 class="margen-blog">PROYECTOS</h2>
 		<div class="slider2">
 
@@ -125,8 +111,8 @@
   		 			<img src="img/fotos/img-0352.jpg">
   			</div>
  	  	</div>
-	</div>
-	<div class="row">
+	</section>
+	<section id="Equipos" class="row">
 		<h2 class="text-center">EQUIPO</h2>
 		<ul class="equipo">
 			<li class="list_equipo">
@@ -148,8 +134,8 @@
 				</div>
 			</li>
 			<li class="list_equipo">
-				<img src="img/fotos/equipo3.jpg" >
-				<p>jjdjd jdjd jdjd djdjd ddjd djdmdmd mddm m mdm  d kd d md dk </p>
+				<img src="img/fotos/shir.jpg" >
+				<p>Shirley Urquieta Pimentel, coder en Laboratoria y estudiante de biologia.</p>
 				<div >
 					<a href="#"><img class="icono_contac"src="img/iconos/redes-sociales/twitter.png"></a>
 					<a href="#"><img class="icono_contac"src="img/iconos/redes-sociales/mensaje.png"></a>
@@ -157,11 +143,10 @@
 				</div>
 			</li>
 		</ul>
-		
-	</div>
-		<div class="row cuad_verde">
-				<h2 class="margen-blog">BLOG</h2>
-				<div class="slider5">
+	</section>
+	<section id="Blogs" class="row cuad_verde">
+		<h2 class="margen-blog">BLOG</h2>
+		<div class="slider5">
 					<div class="slide">
 						<img src="img/fotos/img-0400.jpg" <h4>JUNTOS LO PODEMOS</h4> <p>Los niños en conjunto con sus profesoras se reunieron para siembran. </p>
 					</div>
@@ -182,24 +167,19 @@
 					<div class="slide">
 						<img src="img/fotos/img-0400.jpg" <h4>JUNTOS LO PODEMOS</h4> <p>Los niños en conjunto con sus profesoras se reunieron para siembran. </p>
 					</div>
-				</div>
 		</div>
-		<div class="row contc_plomo">
+	</section>
+	<section id="Siguenos" class="row contc_plomo">
 		<h2 class="text-center">SIGUENOS</h2>
 			<a class="cont" href="#"><img src="img/twitter.png"></a>
-			<a class="cont" href="#"><img src="img/in.png"></a>
-			<a class="cont" href="#"><img src="img/facebook.png"></a>
+			<a class="cont" href="#"><img src="img/iconos/redes-sociales/in.png"></a>
+			<a class="cont" href="#"><img src="img/iconos/redes-sociales/facebook.png"></a>
 		
-			<a  id="email" href="#"><img src="img/email.png"></a>
-		</div>
-
+			<a class="cont" href="#"><img src="img/iconos/redes-sociales/mensaje.png"></a>
 	</section>
 	<footer>
-		<div class="pie_pag">
-			<p>nschsc scjcnjd cjdncjd cjdncjd cjcndjc dc</p>
-			<p>nschsc scjcnjd cjdncjd cjdncjd cjcndjc dc</p>
-			<p>nschsc scjcnjd cjdncjd cjdncjd cjcndjc dc  </p>
-		</div>
-	</footer><!-- shirley-->
+			<p>Proyecto desarrollado por</br><a href="">Laboratoria.la</a></p>
+			<p class="left"><b>Ecomunidad Sostenible</br>hola@ecomunidad.com.pe</b></br><span>51 998 887 776</span></p>
+	</footer>
 </body>
 </html>

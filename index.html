@@ -8,8 +8,11 @@
 	<link href="js/jquery.bxslider.css" rel="stylesheet" />
 	<link rel="stylesheet" href="css/grid-system.css">
 	<link rel="stylesheet" href="css/utilities.css">
+
 	<script type="text/javascript" src="js/main.js"></script>
+	<link rel="stylesheet" href="img/iconos/icomoon/style.css">
 	<link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
 	<div class=" header">
@@ -25,16 +28,12 @@
 	</div>
 	<div class="margin"></div>
 	<div class="video">
-		<video id="video" autoplay preload muted loop ="" controls poster="img/semilla.jpg" class="fullscreen">
+		<video id="video" autoplay preload muted loop poster="img/semilla.jpg" class="fullscreen">
 			<source src="video/video.mp4" type="video.mp4"/>
 			<source src="video/video.ogv" type="video/ogg">
 			<source src="videos/video.webm" type="video/webm">
 		</video>
-	</div>
-	<div id="control">
-			<button onclick="getVolume()" type="button">What is the volume?</button>
-			<button onclick="setFullVolume()" type="button">Subir</button>
-			<button onclick="setHalfVolume()" type="button">Bajar</button>
+		<button id="boton" onclick="toggleVolumen()"><i class="icon-volume-medium"></i></button>
 	</div>
 <section id="Nosotros" class="contc_plomo">
 	<p>Si desaparecieran todos los insectos de la tierra, en menos de 50 años desaparecería toda la vida. Si todos los seres humanos desaparecieran de la tierra, en menos de 50 años todas las formas de vida florecerían.</br>El amor es la fuerza más grande del universo, y si en el planeta hay un caos medioambiental es también porque falta amor por él.</br>Primero fue necesario civilizar al hombre en su relación con el hombre. Ahora es necesario civilizar al hombre en su relación con la naturaleza y los animales.</p>
@@ -108,7 +107,7 @@
           	También pretendíamos valorar el esfuerzo necesario para la obtención del fruto y conocer las cualidades de los diferentes productos vegetales así como sus utilidades culinarias, usos alimenticios y algunas propiedades medicinales.
   			</div>
   			<div class="slide">
-  		 			<img src="img/fotos/img-0352.jpg">
+  		 		<img src="img/fotos/img-0352.jpg">
   			</div>
  	  	</div>
 	</section>
@@ -119,27 +118,27 @@
 				<img src="img/fotos/equipo2.jpg" >
 				<p>jjdjd jdjd jdjd djdjd ddjd djdmdmd mddm m mdm  d kd d md dk </p>
 				<div >
-					<a href="#"><img class="icono_contac"src="img/iconos/redes-sociales/twitter.png"></a>
-					<a href="#"><img class="icono_contac"src="img/iconos/redes-sociales/mensaje.png"></a>
-					<a href="#"><img class="icono_contac"src="img/iconos/redes-sociales/in.png"></a>
+					<a href="https://twitter.com/" target="_blank"><img class="icono_contac"src="img/iconos/redes-sociales/twitter.png"></a>
+					<a href="https://mail.google.com/" target="_blank"><img class="icono_contac"src="img/iconos/redes-sociales/mensaje.png"></a>
+					<a href="https://pe.linkedin.com/" target="_blank"><img class="icono_contac"src="img/iconos/redes-sociales/in.png"></a>
 				</div>
 			</li>
 			<li class="list_equipo">
 				<img src="img/fotos/patty.png">
 				 <p>Patricia Mendoza Soncco, Licenciada en Ciencias de la Comunicacon con estudios en Informatica</p>
 				 <div >
-					<a href="#"><img class="icono_contac"src="img/iconos/redes-sociales/twitter.png"></a>
-					<a href="#"><img class="icono_contac"src="img/iconos/redes-sociales/mensaje.png"></a>
-					<a href="#"><img class="icono_contac"src="img/iconos/redes-sociales/in.png"></a>
+					<a href="https://twitter.com/" target="_blank"><img class="icono_contac"src="img/iconos/redes-sociales/twitter.png"></a>
+					<a href="https://mail.google.com/" target="_blank"><img class="icono_contac"src="img/iconos/redes-sociales/mensaje.png"></a>
+					<a href="https://pe.linkedin.com/" target="_blank"><img class="icono_contac"src="img/iconos/redes-sociales/in.png"></a>
 				</div>
 			</li>
 			<li class="list_equipo">
 				<img src="img/fotos/shir.jpg" >
 				<p>Shirley Urquieta Pimentel, coder en Laboratoria y estudiante de biologia.</p>
 				<div >
-					<a href="#"><img class="icono_contac"src="img/iconos/redes-sociales/twitter.png"></a>
-					<a href="#"><img class="icono_contac"src="img/iconos/redes-sociales/mensaje.png"></a>
-					<a href="#"><img class="icono_contac"src="img/iconos/redes-sociales/in.png"></a>
+					<a href="https://twitter.com/LiZziShirley" target="_blank"><img class="icono_contac"src="img/iconos/redes-sociales/twitter.png"></a>
+					<a href="https://mail.google.com/" target="_blank"><img class="icono_contac"src="img/iconos/redes-sociales/mensaje.png"></a>
+					<a href="https://pe.linkedin.com/" target="_blank"><img class="icono_contac"src="img/iconos/redes-sociales/in.png"></a>
 				</div>
 			</li>
 		</ul>
@@ -171,11 +170,11 @@
 	</section>
 	<section id="Siguenos" class="row contc_plomo">
 		<h2 class="text-center">SIGUENOS</h2>
-			<a class="cont" href="#"><img src="img/twitter.png"></a>
-			<a class="cont" href="#"><img src="img/iconos/redes-sociales/in.png"></a>
-			<a class="cont" href="#"><img src="img/iconos/redes-sociales/facebook.png"></a>
+			<a class="cont" href="https://twitter.com" target="_blank"><img src="img/twitter.png"></a>
+			<a class="cont" href="https://pe.linkedin.com" target="_blank"><img src="img/iconos/redes-sociales/in.png"></a>
+			<a class="cont" href="https://www.facebook.com/" target="_blank"><img src="img/iconos/redes-sociales/facebook.png"></a>
 		
-			<a class="cont" href="#"><img src="img/iconos/redes-sociales/mensaje.png"></a>
+			<a class="cont" href="https://mail.google.com" target="_blank"><img src="img/iconos/redes-sociales/mensaje.png"></a>
 	</section>
 	<footer>
 			<p>Proyecto desarrollado por</br><a href="">Laboratoria.la</a></p>

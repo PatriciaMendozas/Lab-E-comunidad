@@ -1,8 +1,9 @@
-*{outline: 1px solid rgba(255,0,0,0.5);
-}
 @font-face{
 	font-family: 'myfont';
 	src:url(../fonts/Open/OpenSans-Regular.ttf);
+}
+.row{
+	margin: 0;
 }
 a{
 	text-decoration: none;
@@ -20,7 +21,6 @@ section{
 	width: 100%;
 	padding: 0 60px;
 	text-align: center;
-	
 }
 .header img{
 	max-width: 8%;
@@ -93,14 +93,19 @@ section{
 }
 #email > img{
 	width: 10%;
-	margin-bottom: 1%;
+	margin-bottom: 1%;}
+
+#boton{
+	position: absolute;
+	width: 5%;
+	bottom: 0%;
+	right: 0%;
 }
 .equipo{
 	margin: 2% 4%;
 	text-align: center;
 }
 .list_equipo{
-
 	max-width: 22%;
 	margin: 1% 3%;
 	text-align: center;
@@ -112,7 +117,6 @@ section{
 	border-radius: 100%;
 }
 .list_equipo a {
-
 	max-width: 40%;
 }
 .cont img {
@@ -120,7 +124,9 @@ section{
     width: 10%;
 }
 .cont > img:hover{
-	box-shadow: rgb(193, 240, 193) 5px 5px 5px 10px;
+	box-shadow: rgb(193, 240, 193) 5px 5px 5px 10px;}
+.cont > img{
+		width: 10%;
 }
 .misi_visi{
 	width: 34%;
@@ -139,7 +145,7 @@ h3{
 }
 .cuadr_metod{
 	background: #396B30;
-	height: 454px;
+    height: 450px;
 }
 .cuadro3 h2{
 	padding-bottom: 10px;

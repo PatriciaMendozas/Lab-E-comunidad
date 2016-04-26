@@ -1,0 +1,61 @@
+
+*{outline: 1px solid rgba(255,0,0,0.5);}*
+.cuadro1{
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+#abc{
+	margin-left: 150px;
+
+}
+#bcd{
+	margin-left: 150px;
+
+}
+p{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+h3{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.conferencia{
+	width: 470px;
+	height: 450px;
+}
+.pq {
+	position: absolute;
+	
+	margin-left: 200px;
+	margin-top: -320px;
+}
+.logia{
+	position: absolute;
+	margin-left: 180px;
+	margin-top: -250px;
+	color: white;
+}
+.logia2{
+	position: absolute;
+	margin-left: 50px;
+	margin-top: -200px;
+	color: white;
+	height: 90px;
+	width: 350px;
+
+}
+.cuadro3{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.cero{
+	margin-left: 50px;
+}
+.separar{
+	margin-bottom: 50px; 
+	margin-top: 50px;
+}
+
